@@ -1,12 +1,74 @@
-# React + Vite
+# 🖥️ Frontend - CRUD Product Application (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
+This is a frontend application built using React and Vite. It allows users to perform CRUD operations (Create, Read, Update, Delete) on product data.
 
-Currently, two official plugins are available:
+The frontend communicates with a Spring Boot backend using REST APIs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
+- Add new products
+- View all products
+- Edit existing products
+- Dynamic UI updates
+- API integration using Axios
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+- React.js
+- Vite
+- Axios
+- HTML, CSS, Bootstrap
+
+---
+
+## 🔗 Backend Connection
+The frontend connects to backend APIs running at:
+
+http://localhost:9090/springapp1
+
+---
+
+## 📂 Project Structure
+
+src/
+├── App.jsx
+├── main.jsx
+├── App.css
+
+
+---
+
+## ▶️ How to Run
+
+1. Install dependencies:
+npm install
+
+
+2. Start development server:
+npm run dev
+
+
+3. Open browser:
+http://localhost:5173
+
+
+---
+
+## 🧠 Key Concepts
+- React Hooks (useState, useEffect)
+- API Integration (Axios)
+- JSON Data Handling
+- Component-based Architecture
+
+---
+
+## 📸 Output
+- Form to insert/update products
+- Table displaying product list
+
+
+## 👨‍💻 Author
+M SAI SRI ROHIT
